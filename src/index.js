@@ -27,6 +27,7 @@ const newColors = document.getElementById("new-colors");
 newColors.addEventListener("click", addRandomColorToBg);
 
 // Set Interval vs Set Timeout
+// function expression below:
 // const log = () => console.log("is in timeout");
 // setTimeout(log, 1000);
 // setTimeout(addRandomColorToBg, 5000);
